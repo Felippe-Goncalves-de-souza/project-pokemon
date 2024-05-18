@@ -1,0 +1,243 @@
+*{
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+body::-webkit-scrollbar-thumb{
+    background-color:#D22A2A;
+    border-radius: 20px;
+}
+body::-webkit-scrollbar{
+    background-color: #ffcbc2;
+}
+header{
+    background-color: #340202;
+    width: 1864px;
+}
+button{
+    background: none;
+    border: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #E47B7B;
+    height: 55em;
+}
+.modo_escuro{
+    background-color: #004AAD;
+}
+.pokebola{
+    width: 100px;
+    margin-left: 100px;
+}
+ 
+.modo-claro{
+    position: relative;
+    left: 95em;
+}
+.modo-claro img{
+    width: 100px;
+}
+
+.pokedex{
+    display: flex;
+    align-self: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    gap: 30px;
+}
+
+li{
+    border: 1px solid black;
+}
+
+.pokemon_card{
+    border: 3px solid #8D1E1E;
+    border-radius: 30px;
+    background-image: radial-gradient(circle, #FFF7AD, #FF2600);
+    width: 200px;
+    list-style: none;
+    
+}
+
+.pokemon_card img{
+    width: 100px;
+    position: relative;
+    left:  50px;
+}
+
+.pokemon_card div{
+    background-color: #340202;
+    border-radius: 25px;
+    height: 200px;
+    width: 200px;
+}
+
+.pokemon_card h2{
+    color: white;
+    text-align: center;
+}
+
+.pokemon_card .tipo{
+    background-color: #FF914D;
+    width: 50px;
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;
+    position: relative;
+    left: 70px;
+}
+.pokemon_card .texto{
+    height: 100px;
+    width: 150px;
+    color: #A6A6A6;
+    overflow-y: scroll;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.pokemon_card .texto::-webkit-scrollbar{
+    background-color: #ffcbc2;
+    width: 10px;
+    border-radius: 10px;
+}
+
+.pokemon_card .texto::-webkit-scrollbar-thumb{
+    background-color:#D22A2A;
+    border-radius: 20px;
+}
+
+.eletrico{
+    background-image: radial-gradient(circle, #FFDE59, #FF914D);
+    border: 3px solid #7D530C;
+}
+
+.agua{
+    background-image: radial-gradient(circle, #5DE0E6, #004AAD);
+    border: 3px solid #473099;
+}
+
+.normal{
+    background-image: radial-gradient(circle, #383838, white);
+    border: 3px solid #545454;
+}
+ .texto_charmander{
+    position: relative;
+    top: 4px;
+    right: 3px;
+ }
+ 
+.texto_charmanleon{
+    position: relative;
+    top: 10px;
+    right: 3px;
+}
+
+.texto_charizard{
+    position: relative;
+    top: 35px;
+    right: 3px;
+}
+
+.texto_pichu{
+    position: relative;
+    top: 35px;
+    right: 3px;
+}
+.texto_raichu{
+    position: relative;
+    top: 4px;
+    right: 3px;
+}
+.texto_pichu .tipo{
+    background-color: #FED402;
+    width: 60px
+}
+
+.texto_pikachu .tipo{
+    background-color: #FED402;
+    width: 60px
+}
+
+.texto_raichu .tipo{
+    background-color: #FED402;
+    width: 60px
+}
+.texto_pikachu{
+    position: relative;
+    top: 26px;
+    right: 3px;
+}
+
+.texto_squirtle{
+    position: relative;
+    top: 60px;
+    right: 3px;
+}
+
+.texto_squirtle .tipo{
+    background-color: #90A4FF;
+    width: 60px
+}
+
+.texto_warturtle .tipo{
+    background-color: #90A4FF;
+    width: 60px
+}
+
+.texto_blastoise .tipo{
+    background-color: #90A4FF;
+    width: 60px
+}
+
+.texto_warturtle{
+    position: relative;
+    top: 23px;
+    right: 3px;
+}
+.texto_blastoise{
+    position: relative;
+    top: 53px;
+    right: 3px;
+}
+
+.texto_snorlax{
+    position: relative;
+    top: 56px;
+    right: 3px;
+}
+
+.texto_snorlax .tipo{
+    background-color: #A6A6A6;
+    width: 60px;
+}
+/*-----------------------------------------------------------*/
+.charmanleon{
+   position: relative;
+   top: 11px;
+}
+.squirtle{
+    position: relative;
+    top: 49px;
+}
+
+.blastoise{
+    position: relative;
+    top: 53px;
+}
+
+.snorlax{
+    position: relative;
+    top: 59px;
+}
+.f{
+    background-color: #3C1DAB; 
+}

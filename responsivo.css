@@ -1,0 +1,26 @@
+@media screen and (max-width: 475px){
+    .pokedex{
+        width: 450px;
+        gap: 40px;
+        align-self: self-start;
+        padding-top: 20px;
+    }
+
+   header{
+    width: 450px;
+   }
+main{
+    width: 450px;
+    height: 125em;
+    justify-content: start;
+}
+   .modo-claro{
+    left: 180px;
+   }
+   .pokebola{
+    margin-left: 30px;
+   }
+   .texto_pikachu{
+    top: 40px;
+   }
+}
