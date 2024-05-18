@@ -35,12 +35,12 @@ main{
 }
 .pokebola{
     width: 100px;
-    margin-left: 100px;
+    margin-left: 300px;
 }
  
 .modo-claro{
     position: relative;
-    left: 95em;
+    left: 75em;
 }
 .modo-claro img{
     width: 100px;
